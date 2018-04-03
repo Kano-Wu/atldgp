@@ -37,7 +37,14 @@ Xtest_target：	 (tTest_Num , Dim)
 ytest_target：	 (tTest_Num , 1  ) 
 ```
 
-### Run Example
+### Run Demo
+
+#### Prepare
+
+* numpy
+* scipy
+
+#### Run
 
 ```
 > python demo.py
@@ -47,10 +54,21 @@ ytest_target：	 (tTest_Num , 1  )
 
 ### More Code
 
-* DSGPAsymmetricTransferClassifier_mod.py
-* my_demo.py -- main
-* mapped.py
-* tmp.py
+* data_util.py
+* atl_dgp.py -- main
+
+### Prepare
+
+* numpy
+* scipy
+* cPickle
+* scikit-learn
+
+### Run
+
+```
+python atl_dgp.py
+```
 
 
 
